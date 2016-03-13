@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+# -*- coding:UTF-8 -*-
+#python 2.7
+'''写一个鱼放到碗里的一个窗口游戏，主要是：
+1.练习使用鼠标的使用
+2.事件的使用
+'''
+
 background_image_filename = 'sushiplate.jpg'
 mouse_image_filename = 'fugu.png'
 #指定图像文件名称

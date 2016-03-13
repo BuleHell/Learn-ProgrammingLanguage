@@ -1,8 +1,11 @@
-#encoding: UTF-8
+#!/usr/bin/env python
+# -*- coding:UTF-8 -*-
+#python 2.7
 """
-音悦台mv批量下载
-2015-02-11
-bc523@qq.com
+  音悦台mv批量下载
+   出现问题：
+        由于网页或者其它的变化，该代码已经不能完美的实现了
+        必须再次，根据网页的变化，来一定范围内更改代码，进行适应性编程
 """
 import urllib2
 import urllib
@@ -131,7 +134,12 @@ class Yinyuetai:
          
     #end def
      
-#end class      
+#end class    
+
+
 if __name__ == '__main__':
     url = 'http://mv.yinyuetai.com/all?pageType=page&sort=weekViews&tab=allmv&parenttab=mv'
     Yinyuetai(url)
+else:
+    url = 'http://mv.yinyuetai.com/all?pageType=page&sort=weekViews&tab=allmv&parenttab=mv'
+    Yinyuetai(url)    
