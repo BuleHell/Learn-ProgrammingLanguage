@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #-*-coding:utf-8 -*-
+#可以运行
 from Tkinter import *#从TKinter导入所有的名字
 import random        #随机数模块
 import tkMessageBox   
